@@ -1,0 +1,58 @@
+h1{
+    line-height: 2.5rem;
+    font-size: 3.3rem;
+}
+h1 span{
+    font-size: 1.5rem;
+    /* color: var(--text-inactive); */
+}
+
+
+h2{
+    color: var(--title-color);
+    margin: 2rem 0 0 0 ;
+}
+
+p{
+    margin: 0;
+}
+
+nav{
+    margin: 3rem 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    color: var(--text-inactive);
+    transform: translateX(1rem);
+}
+
+
+.contact{
+    width: 50%;
+    margin: auto;
+    margin: 2rem 0;
+}
+
+.contact ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fab, .fas {
+    position: relative;
+    color: var(--text-inactive);
+    font-size: 1.5rem;
+}
+
+.fab:hover, .fas:hover {
+    color: var(--text-color);
+    transform: scale(1.3);    
+}
+
+
