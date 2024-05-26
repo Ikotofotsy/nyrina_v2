@@ -1,8 +1,8 @@
 :root{
     --background-color : linear-gradient(90deg, rgba(33,25,69,1) 0%, rgba(26,41,82,1) 48%, rgba(15,39,88,1) 100%);
     --text-color : white;
-    --text-inactive : #d1d0ea;
-    --title-color : #3783f7;;
+    --text-inactive : #b8b5fd;
+    --title-color : #75a1e4;;
     --mouse-x: 50%;
     --mouse-y: 50%;
 }

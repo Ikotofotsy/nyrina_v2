@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hover Example</title>
-    <style>
-        .hover-target {
-            background-color: lightblue;
-            padding: 10px;
-            display: inline-block;
-        }
-
-        .change-on-hover {
-            background-color: lightgreen;
-            padding: 10px;
-            display: inline-block;
-            margin-top: 5px;
-        }
-
-        .hover-target:hover ~ .change-on-hover {
-            background-color: darkgreen;
-            color: white;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Text Wrap Around Oval Shape Example</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  canvas {
+    width: 200px;
+    height: 220px;
+    border-radius: 100%;
+    background-color: red;
+    float: left;
+    shape-outside: circle();
+    margin-right: 20px;
+  }
+  
+  .text {
+    text-align: justify;
+    float:left;
+    max-width: 500px;
+  }
+</style>
 </head>
 <body>
-    <div class="hover-target">Hover over me</div>
-    <div class="change-on-hover">I change color</div>
-    <div class="change-on-hover">Me too!</div>
+  <p class="text">
+    <canvas></canvas>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras luctus facilisis lacinia. Mauris euismod pellentesque tellus sit amet mollis. Nulla a scelerisque turpis, in gravida enim. Pellentesque sagittis faucibus elit, nec lobortis augue fringilla non.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras luctus facilisis lacinia. Mauris euismod pellentesque tellus sit amet mollis. Nulla a scelerisque turpis, in gravida enim. Pellentesque sagittis faucibus elit, nec lobortis augue fringilla non.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras luctus facilisis lacinia. Mauris euismod pellentesque tellus sit amet mollis. Nulla a scelerisque turpis, in gravida enim. Pellentesque sagittis faucibus elit, nec lobortis augue fringilla non.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras luctus facilisis lacinia. Mauris euismod pellentesque tellus sit amet mollis. Nulla a scelerisque turpis, in gravida enim. Pellentesque sagittis faucibus elit, nec lobortis augue fringilla non.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras luctus facilisis lacinia. Mauris euismod pellentesque tellus sit amet mollis. Nulla a scelerisque turpis, in gravida enim. Pellentesque sagittis faucibus elit, nec lobortis augue fringilla non.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras luctus facilisis lacinia. Mauris euismod pellentesque tellus sit amet mollis. Nulla a scelerisque turpis, in gravida enim. Pellentesque sagittis faucibus elit, nec lobortis augue fringilla non.
+  </p>
 </body>
 </html>

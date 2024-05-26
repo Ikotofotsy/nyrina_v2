@@ -1,0 +1,8 @@
+#skill ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#skill li{
+    font-size: 3rem;
+}
